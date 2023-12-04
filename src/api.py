@@ -4,7 +4,7 @@ import requests
 class Api:
 
     def __init__(self, key: str, city: str):
-        self.url_api: str = ''
+        self.url_api: str = 'https://api.c2smr.fr/machine'
         self.api_key: str = key
         self.city: str = city
         self.name_extension: str = '-not-trained'
